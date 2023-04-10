@@ -33,7 +33,7 @@ me.hello_world()
 <div style="display:flex; gap: 0 50px; flex-wrap: wrap">
 <div>
 
-#### ⚒ Language and frameworks
+#### ⚒ Languages and frameworks
 [![My Skills](https://skillicons.dev/icons?i=py,fastapi)](https://skillicons.dev)
 </div>
 <div>
