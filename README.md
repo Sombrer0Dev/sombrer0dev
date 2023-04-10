@@ -28,21 +28,21 @@ me = SoftwareDeveloper()
 me.hello_world()
 ```
 
-### 🔧 Software Stack
+### ⚙️ Software Stack
 <div style="display:flex; gap: 0 50px; flex-wrap: wrap">
 <div>
 
-#### Language and frameworks
+#### ⚒ Language and frameworks
 [![My Skills](https://skillicons.dev/icons?i=py,fastapi)](https://skillicons.dev)
 </div>
 <div>
 
-#### Tools
+#### 🔧 Tools
 [![My Skills](https://skillicons.dev/icons?i=docker,jenkins,git,bash,pwsh)](https://skillicons.dev)
 </div>
 <div>
 
-#### Databases
+#### 📁 Databases
 [![My Skills](https://skillicons.dev/icons?i=mongodb,postgresql)](https://skillicons.dev)
 </div>
 </div>
