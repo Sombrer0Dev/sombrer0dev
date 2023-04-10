@@ -9,6 +9,7 @@ class SoftwareDeveloper:
 
     def __init__(self):
         self.name = "Artem Sokolov"
+        self.age = 21
         self.role = "Software Developer"
         self.language_spoken = ["ru_RU", "en_US"]
         self.project = "Melon-Back-End"
