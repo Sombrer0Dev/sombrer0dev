@@ -12,7 +12,7 @@ type SoftwareDeveloper struct {
 	Company string
 }
 
-func (s * SoftwareDeveloper) HelloWorld(){
+func (s *SoftwareDeveloper) HelloWorld(){
 	fmt.Printf(`
 		Thanks for dropping by, My name is %s and
 		I'm currently employed as %s at %s.
