@@ -40,7 +40,7 @@ func main() {
 <div>
 
 #### 🔧 Tools
-[![My Skills](https://skillicons.dev/icons?i=linux,docker,jenkins,git,bash,pwsh)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=linux,docker,jenkins,git,bash,pwsh,grafana)](https://skillicons.dev)
 </div>
 <div>
 
