@@ -1,32 +1,33 @@
 ## Hi there 👋
 
-```py
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+```go
+package main
 
+import "fmt"
 
-class SoftwareDeveloper:
+type SoftwareDeveloper struct {
+	Name string
+	Role string
+	Languages []string
+	Company string
+}
 
-    def __init__(self):
-        self.name = "Artem Sokolov"
-        self.age = 21
-        self.role = "Software Developer"
-        self.language_spoken = ["ru_RU", "en_US"]
-        self.project = "Melon-Back-End"
-    
-    @staticmethod
-    def learning():
-        import fastapi
-        import websocket
-        import asyncio
-        import docker
-        
-    def hello_world(self):
-        print(f'Thanks for dropping by, hope you find my current project ({self.project}) interesting')
+func (s * SoftwareDeveloper) HelloWorld(){
+	fmt.Printf(`
+		Thanks for dropping by, My name is %s and
+		I'm currently employed as %s at %s.
+		`, s.Name, s.Role, s.Company)
+}
 
-SoftwareDeveloper.learning()
-me = SoftwareDeveloper()
-me.hello_world()
+func main() {
+	s := SoftwareDeveloper{
+		Name: "Artem Sokolov",
+		Role: "Software Developer",
+		Languages: []string{"ru_RU", "en_US"},
+		Company: "MTT",
+	}
+	s.HelloWorld()
+}
 ```
 
 ### ⚙️ Software Stack
@@ -34,23 +35,23 @@ me.hello_world()
 <div>
 
 #### ⚒ Languages and frameworks
-[![My Skills](https://skillicons.dev/icons?i=py,fastapi)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=go,py,lua)](https://skillicons.dev)
 </div>
 <div>
 
 #### 🔧 Tools
-[![My Skills](https://skillicons.dev/icons?i=docker,jenkins,git,bash,pwsh)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=linux,docker,jenkins,git,bash,pwsh)](https://skillicons.dev)
 </div>
 <div>
 
 #### 📁 Databases
-[![My Skills](https://skillicons.dev/icons?i=mongodb,postgresql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=mongodb,postgresql,mysql)](https://skillicons.dev)
 </div>
 </div>
 
-### 🏢 Working on
-<a href="https://github.com/Smbrer1/melon-back-end">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=smbrer1&repo=melon-back-end&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="melon-back-end" />
-</a>
+<!-- ### 🏢 Working on -->
+<!-- <a href="https://github.com/Smbrer1/melon-back-end"> -->
+<!--   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=smbrer1&repo=melon-back-end&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="melon-back-end" /> -->
+<!-- </a> -->
 
 
