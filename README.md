@@ -34,7 +34,7 @@ func main() {
 <div style="display:flex; gap: 0 50px; flex-wrap: wrap">
 <div>
 
-#### ⚒ Languages and frameworks
+#### ⚒ Languages
 [![My Skills](https://skillicons.dev/icons?i=go,py,lua)](https://skillicons.dev)
 </div>
 <div>
