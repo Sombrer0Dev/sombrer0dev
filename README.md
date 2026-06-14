@@ -23,8 +23,8 @@ func main() {
 	s := SoftwareDeveloper{
 		Name: "Artem Sokolov",
 		Role: "Software Developer",
-		Languages: []string{"ru_RU", "en_US"},
-		Company: "MTT",
+		Languages: []string{"ru_RU", "en_US", "fr_FR"},
+		Company: "Positive Technologies",
 	}
 	s.HelloWorld()
 }
